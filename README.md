@@ -6,13 +6,13 @@
 Escolhi usar o VSCode por questão de praticidade mesmo, instalei a extensão para java, clonei o repositório da apresentação e adicionei/criei os arquivos/pastas necessários. Baixei também o JDK 26 da Oracle.  
 
 <h3>Execução do 1º código: StudentGrades.java</h3>
+O que ele faz: lê o arquivo.csv e calcula a média aritmética das notas
 <img src="assets/Studentscsv.png">
 <img src="assets/StudentGrades.gif">
-O que ele faz: lê o arquivo.csv e calcula a média aritmética das notas
 
 <h3>Execução do 2º código: GenerateStudentData.java </h3>
-<img src="assets/GenerateStudentData.gif">
 O que ele faz: gera estudantes aleatórios e salva os dados de cada um (nome, ID, nota) no arquivo 'morestudents.csv'
+<img src="assets/GenerateStudentData.gif">
 
 <h3>Processo de Execução:</h3>
 Havia adicionado os arquivos .java, mas esqueci de adicionar também o arquivo 'students.csv', o que resultou na seguinte mensagem ao tentar executar o 'StudentGrades.java':
@@ -27,7 +27,7 @@ Foi fácil de resolver, adicionei no repositório o .csv que a professora havia 
 <h3>Pergunta 04:</h3>
 <h4>O que significa Random random = new Random()?</h4>
 
-'new Random()' cria um novo objeto da classe 'Random' ao iniciar o gerador de número aleatório, e a variável random referencia esse objeto. Aqui nesse código, random é usado para gerar a nota do aluno ao chamar nextDouble()(pergunta 05).
+A variável 'random' referencia um objeto da classe Random, que nesse caso será um gerador de número aleatório por conta de 'new Random()'. Aqui nesse código, 'random' é usado para gerar a nota do aluno ao chamar nextDouble()(pergunta 05).
 
 <img src="assets/Pergunta04.png">
 
@@ -126,7 +126,8 @@ Escolhi esse pois já conhecia e achei interessante traze-lo, pois futuramente i
 
 [Game Class](https://github.com/libgdx/libgdx/blob/master/gdx/src/com/badlogic/gdx/Game.java)
 
-A classe Game representa a estrutura principal do jogo e controla as telas dele.
+A classe Game representa a estrutura principal do jogo e controla as telas dele.<br>
+*Não havia percebido antes, mas temos um exemplo de implementação de uma classe abstrata:<br>
 <img src="assets/GameClass.png">
 
 
@@ -140,8 +141,12 @@ Aqui temos um exemplo de herança: TiledMap herda da classe Map<br>
 
 <h1>Fontes:</h1>
 
-[POO 01](https://liascript.github.io/course/?https://raw.githubusercontent.com/AndreaInfUFSM/elc117-2026a/main/classes/19/README.md#1)
+[ELC 117 - POO 01](https://liascript.github.io/course/?https://raw.githubusercontent.com/AndreaInfUFSM/elc117-2026a/main/classes/19/README.md#1)
 
 [Java.Util.Random](https://learn.microsoft.com/en-us/dotnet/api/java.util.random?view=net-android-35.0)
 
 [10 Open Source Java Projects](https://medium.com/@lreverchuk/top-10-java-open-source-projects-on-github-f75755d1a14a)
+
+[Java Implements Keyword](https://www.w3schools.com/java/ref_keyword_implements.asp)
+
+[Polimorfismo, Classes Abstratas e Interfaces](https://www.devmedia.com.br/polimorfismo-classes-abstratas-e-interfaces-fundamentos-da-poo-em-java/26387)
