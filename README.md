@@ -114,7 +114,10 @@ class RandomStudentGenerator {
 
 <h1>Parte Exploratória</h1>
 
-<h3>Projeto Open Source: [libgdx](https://github.com/libgdx/libgdx)</h3>
+<h3>Projeto Open Source: </h3>
+
+[libgdx](https://github.com/libgdx/libgdx)
+
 O libgdx é um framework para desenvolvimento de jogos em Java, compatível com Windows, Linux, Android, iOS e HTML5.<br>
 Escolhi esse pois já conhecia e achei interessante traze-lo, pois futuramente iremos utilizá-lo (possivelmente)
 
@@ -127,6 +130,7 @@ A classe Game representa a estrutura principal do jogo e controla as telas dele.
 
 
 [TiledMap Class](https://github.com/libgdx/libgdx/blob/master/gdx/src/com/badlogic/gdx/maps/tiled/TiledMap.java)
+
 Por o que vi, a classe TiledMap representa um mapa/cenário do jogo, ela carrega os mapas criados no programa Tiled.<br>
 Aqui temos um exemplo de herança: TiledMap herda da classe Map<br>
 *Consegui entender a função geral da classe, mas não peguei bem toda ela, por exemplo o 'setOwnedResources'.
@@ -136,5 +140,7 @@ Aqui temos um exemplo de herança: TiledMap herda da classe Map<br>
 <h1>Fontes:</h1>
 
 [POO 01](https://liascript.github.io/course/?https://raw.githubusercontent.com/AndreaInfUFSM/elc117-2026a/main/classes/19/README.md#1)
-[Java.Util.Random]https://learn.microsoft.com/en-us/dotnet/api/java.util.random?view=net-android-35.0
+
+[Java.Util.Random](https://learn.microsoft.com/en-us/dotnet/api/java.util.random?view=net-android-35.0)
+
 [10 Open Source Java Projects](https://medium.com/@lreverchuk/top-10-java-open-source-projects-on-github-f75755d1a14a)
