@@ -7,17 +7,16 @@ Escolhi usar o VSCode por questão de praticidade mesmo, instalei a extensão pa
 
 <h3>Execução do 1º código: StudentGrades.java</h3>
 <img src="assets/StudentGrades.gif">
-O que ele faz:
+O que ele faz: lê o arquivo.csv e calcula a média aritmética das notas
 
 <h3>Execução do 2º código: GenerateStudentData.java </h3>
 <img src="assets/GenerateStudentData.gif">
-O que ele faz:
+O que ele faz: gera estudantes aleatórios e salva os dados de cada um (nome, ID, nota) no arquivo 'morestudents.csv'
 
 <h3>Processo de Execução:</h3>
 Havia adicionado os arquivos .java, mas esqueci de adicionar também o arquivo 'students.csv', o que resultou na seguinte mensagem ao tentar executar o 'StudentGrades.java':
 
-<h4>Error reading file: students.csv (O sistema não pode encontrar o arquivo especificado)</h4>
-<h4>Arithmetic Mean of Grades: 0.0</h4>
+<h4>Error reading file: students.csv (O sistema não pode encontrar o arquivo especificado)<br>Arithmetic Mean of Grades: 0.0</h4>
 
 Foi fácil de resolver, adicionei no repositório o .csv que a professora havia fornecido junto aos .java da atividade de compreensão de código.
 
@@ -115,8 +114,27 @@ class RandomStudentGenerator {
 
 <h1>Parte Exploratória</h1>
 
+<h3>Projeto Open Source: [libgdx](https://github.com/libgdx/libgdx)</h3>
+O libgdx é um framework para desenvolvimento de jogos em Java, compatível com Windows, Linux, Android, iOS e HTML5.<br>
+Escolhi esse pois já conhecia e achei interessante traze-lo, pois futuramente iremos utilizá-lo (possivelmente)
+
+<h3>Classes:</h3>
+
+[Game Class](https://github.com/libgdx/libgdx/blob/master/gdx/src/com/badlogic/gdx/Game.java)
+
+A classe Game representa a estrutura principal do jogo e controla as telas dele.
+<img src="assets/GameClass.png">
+
+
+[TiledMap Class](https://github.com/libgdx/libgdx/blob/master/gdx/src/com/badlogic/gdx/maps/tiled/TiledMap.java)
+Por o que vi, a classe TiledMap representa um mapa/cenário do jogo, ela carrega os mapas criados no programa Tiled.<br>
+Aqui temos um exemplo de herança: TiledMap herda da classe Map<br>
+*Consegui entender a função geral da classe, mas não peguei bem toda ela, por exemplo o 'setOwnedResources'.
+<img src="assets/TiledMapClass.png">
+
+
 <h1>Fontes:</h1>
 
-https://liascript.github.io/course/?https://raw.githubusercontent.com/AndreaInfUFSM/elc117-2026a/main/classes/19/README.md#1
-
-https://learn.microsoft.com/en-us/dotnet/api/java.util.random?view=net-android-35.0
+[POO 01](https://liascript.github.io/course/?https://raw.githubusercontent.com/AndreaInfUFSM/elc117-2026a/main/classes/19/README.md#1)
+[Java.Util.Random]https://learn.microsoft.com/en-us/dotnet/api/java.util.random?view=net-android-35.0
+[10 Open Source Java Projects](https://medium.com/@lreverchuk/top-10-java-open-source-projects-on-github-f75755d1a14a)
