@@ -6,6 +6,7 @@
 Escolhi usar o VSCode por questão de praticidade mesmo, instalei a extensão para java, clonei o repositório da apresentação e adicionei/criei os arquivos/pastas necessários. Baixei também o JDK 26 da Oracle.  
 
 <h3>Execução do 1º código: StudentGrades.java</h3>
+<img src="assets/Studentscsv.png">
 <img src="assets/StudentGrades.gif">
 O que ele faz: lê o arquivo.csv e calcula a média aritmética das notas
 
